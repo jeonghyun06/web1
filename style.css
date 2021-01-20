@@ -1,0 +1,51 @@
+body{
+  margin:0;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 205px 220px 1fr;
+}
+#active{
+  color:red;
+}
+h1{
+  font-size:60px;
+  text-align:center;
+  border-bottom: 2px solid gray;
+  margin:0;
+  padding:20px;
+}
+h3{
+  margin:0;
+  padding:10px;
+}
+ol{
+  border-right:2px solid gray;
+  width:150px;
+  margin:0;
+  padding:10px;
+}
+#grid ol{
+  padding-left: 33px;
+}
+#grid #poster{
+  padding-left:15px;
+}
+#grid #poster p{
+  margin:0;
+}
+#grid #rating{
+  margin-right: 15px;
+}
+@media(max-width:650px){
+  #grid{
+    display:block;
+  }
+  ol{
+    border-right: none;
+  }
+}
